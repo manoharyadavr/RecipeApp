@@ -1,0 +1,27 @@
+.recipe-detail {
+  border: 3px solid rgb(181, 235, 167);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+h3 {
+  color: rgb(29, 156, 0);
+  width: 20%;
+  /* margin-left: 38%; */
+  margin-top: -3px;
+  padding: 10px;
+  font-size: 1.56rem;
+}
+
+p {
+  color: rgb(27, 29, 155);
+  margin-top: -10px;
+  font-size: 1.2rem;
+}

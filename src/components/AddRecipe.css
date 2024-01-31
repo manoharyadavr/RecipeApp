@@ -1,0 +1,39 @@
+.add-recipe {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  background-color: rgba(243, 153, 153, 0.293);
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-bottom: 40px;
+}
+
+button {
+  background-color: rgb(255, 149, 56);
+  border: none;
+  width: 30%;
+  padding: 7px;
+  margin-top: 10px;
+  border-radius: 7px;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 35%;
+  transition: 1s;
+}
+
+button:hover{
+  transform: scale(1.2);
+  background-color: rgba(252, 45, 45, 0.725);
+}
+
+input,
+textarea {
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.03rem;
+  resize: none;
+}
